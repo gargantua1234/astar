@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-    <style> body {padding: 0; margin: 0;} </style>
-    <meta charset="UTF-8">
-    <script  src="libraries/p5.js"></script>
-    <script  src="libraries/p5.dom.js"></script>
-    <!-- <script  src="punkt.js"></script> -->
-
-    <script  src="sketch.js"></script>
     <style>
-      body {
-         margin: 0;
-         display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+        body {
+            padding: 0;
+            margin: 0;
+        }
     </style>
-  </head>
-  <body>
+    <meta charset="UTF-8">
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.js"></script>
 
-  <h1 style="text-align:center;">Algorytm A* do wyszukiwania najkrótszej ścieżki</h1>
-  </body>
+
+
+</head>
+
+<body>
+
+    <h1 style="text-align:center;">Algorytm A* do wyszukiwania najkrótszej ścieżki</h1>
+    <div id="sketch-holder" style="width: 30%; margin:0 auto"></div>
+    <h2 id="result" style="text-align: center"></h2>
+
+    <script src="Point.js"></script>
+    <script src="CanvasUtils.js"></script>
+    <script src="Board.js"></script>
+    <script src="AStar.js"></script>
+    <script src="sketch.js"></script>
+</body>
+
 </html>
